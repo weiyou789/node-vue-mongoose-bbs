@@ -1,0 +1,27 @@
+{
+  "name": "webbbs.server",
+  "sysCode": "webbbs",
+  "port": 129,
+  "private": true,
+  "scripts": {
+    "DEV": "node app",
+    "PRD": "NODE_ENV=PRD node app"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "co-body": "^5.1.1",
+    "koa": "^2.2.0",
+    "koa-cookie": "^1.0.0",
+    "koa-router": "^7.1.1",
+    "koa-session": "^5.0.0",
+    "koa2-cors": "^2.0.3",
+    "lodash": "^4.17.4",
+    "log4js": "1.1.0",
+    "moment": "2.15.1",
+    "mongoose": "^4.9.6",
+    "request": "2.79.0",
+    "twix": "0.9.0",
+    "uuid": "3.0.1"
+  },
+  "devDependencies": {}
+}
